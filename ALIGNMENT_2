@@ -219,29 +219,5 @@ DO[3]=OFF ;
 DO[4]=OFF ;
 DO[6]=ON ;
 DO[12]=OFF ;
-
-WAIT 2.00(sec) ;
-JMP LBL[110] ;
-LBL[907] ;
-R[2]=294 ;
-LBL[295] ;
-SKIP CONDITION DI[41]=ON ;
-L PR[95] R[51]mm/sec FINE Skip,LBL[908] ;
-DO[22]=ON ;
-WAIT UI[5:Fault reset]=ON ;
-WAIT 2.00(sec) ;
-JMP LBL[110] ;
-LBL[908] ;
-R[2]=295 ;
-LBL[306] ;
-L PR[6] R[51]mm/sec FINE ;
-R[2]=306 ;
-;
-LBL[110] ;
-DO[7]=OFF ;
-DO[3]=OFF ;
-DO[4]=OFF ;
-DO[6]=ON ;
-DO[12]=OFF ;
 POS
 END
