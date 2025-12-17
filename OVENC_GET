@@ -76,8 +76,6 @@ PR[35]=PR[36] ;
 PR[35,3]=PR[34,3] ;
 $WAITTMOUT=300 ;
 LBL[101] ;
-L PR[7] R[51]mm/sec FINE ;
-R[2]=7 ;
 IF (R[2]=1) THEN ;
 J PR[1] R[52]% FINE ;
 R[2]=1 ;
