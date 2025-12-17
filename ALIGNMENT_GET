@@ -49,8 +49,10 @@ R[2]=1 ;
 ENDIF ;
 IF (DO[10]=ON) THEN ;
 R[2]=3 ;
+ENDIF
 IF (DO[20]=ON) THEN ;
 R[2]=4 ;
+ENDIF
 IF (DO[21]=ON) THEN ;
 R[2]=5 ;
 ENDIF ;
